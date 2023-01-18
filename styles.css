@@ -6,24 +6,17 @@
   width: 200px;
 }
 
-#left {
+.left img {
   display: flex;
   flex-flow: column;
   background-color: rgb(224, 224, 224);
-}
-
-#message {
-  display: flex;
-  justify-content: flex-end;
-  background-color: rgb(224, 224, 224);
+  width: 30px;
 }
 
 #message img {
-  width: 20px;
-}
-
-#left image {
   width: 30px;
+  display: flex;
+  justify-content: end;
 }
 
 .gear {
@@ -39,10 +32,17 @@
   margin-right: 800px;
 }
 
+.box {
+  display: flexbox;
+}
+
 .box h4 {
   background-color: rgb(77, 110, 139);
+  color: white;
+  justify-content: center;
 }
 
 .box p {
-  background-color: rgb(224, 224, 224);
+  background-color: rgb(237, 239, 241);
+  color: grey;
 }/*# sourceMappingURL=styles.css.map */

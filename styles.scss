@@ -14,24 +14,17 @@ $colorLightGrey: rgb(237, 239, 241);
   width: 200px;
 }
 
-#left {
+.left img {
   display: flex;
   flex-flow: column;
   background-color: $colorGrey;
-}
-
-#message {
-  display: flex;
-  justify-content: flex-end;
-  background-color: $colorGrey;
-}
-
-#message img {
-  width: 20px;
-}
-
-#left image {
   width: 30px;
+}
+
+#message img{
+  width: 30px;
+  display: flex;
+  justify-content: end;
 }
 
 .gear {
@@ -45,12 +38,20 @@ $colorLightGrey: rgb(237, 239, 241);
   display: flex;
   justify-content: flex-start;
   margin-right: 800px;
+  
+}
+
+.box{
+  display:flexbox
 }
 
 .box h4 {
   background-color: $colorBlue;
+  color: white;
+  justify-content: center;
 }
 
 .box p {
-  background-color: $colorGrey;
+  background-color: $colorLightGrey;
+  color: grey;
 }
