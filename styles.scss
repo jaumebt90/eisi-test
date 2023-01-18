@@ -2,12 +2,9 @@ $colorGrey: rgb(224, 224, 224);
 $colorBlue: rgb(77, 110, 139);
 $colorLightGrey: rgb(237, 239, 241);
 
-@mixin imgsize{
-  width: 30px;
-}
-
 .logo {
-  border-bottom: 20px black;
+  border-bottom: 2px $colorLightGrey solid;
+  margin-bottom: 10px;
 }
 
 .logo img {
@@ -32,6 +29,8 @@ $colorLightGrey: rgb(237, 239, 241);
 .pestana{
   display: flex;
   flex-direction: row;
+  border-bottom: 30px solid $colorBlue;
+  margin-left: 120px;
 }
 .gear {
   background-color: $colorBlue;
@@ -63,12 +62,12 @@ $colorLightGrey: rgb(237, 239, 241);
   background-color: $colorBlue;
   color: white;
   justify-content: center;
-  padding: 10px 10px 10px 10px;
+  padding: 20px 20px 20px 20px;
 }
 
 .box p {
   background-color: $colorLightGrey;
   color: grey;
   justify-content: center;
-  padding: 10px 10px 10px 10px;
+  padding: 20px 20px 20px 20px;
 }
