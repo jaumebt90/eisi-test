@@ -24,6 +24,8 @@
 
 .gear {
   background-color: rgb(77, 110, 139);
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
   width: 30px;
 }
 
