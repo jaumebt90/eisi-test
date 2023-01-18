@@ -32,4 +32,14 @@ $colorBlue: rgb(77, 110, 139);
 
 .boxes{
   display: flex;
+  justify-content: flex-start;
+  margin-right: 800px;
+}
+
+.box h4{
+  background-color: $colorBlue;
+}
+
+.box p{
+  background-color: $colorGrey;
 }

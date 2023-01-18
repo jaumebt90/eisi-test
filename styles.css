@@ -29,4 +29,14 @@
 
 .boxes {
   display: flex;
+  justify-content: flex-start;
+  margin-right: 800px;
+}
+
+.box h4 {
+  background-color: rgb(77, 110, 139);
+}
+
+.box p {
+  background-color: rgb(224, 224, 224);
 }/*# sourceMappingURL=styles.css.map */
