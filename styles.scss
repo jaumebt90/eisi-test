@@ -21,6 +21,7 @@ $colorLightGrey: rgb(237, 239, 241);
   width: 30px;
 }
 
+
 #message img{
   width: 30px;
   display: flex;
@@ -42,7 +43,8 @@ $colorLightGrey: rgb(237, 239, 241);
 }
 
 .box{
-  display:flexbox
+  display:flexbox;
+  margin: 5px 5px 5px 5px;
 }
 
 .box h4 {
