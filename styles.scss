@@ -1,47 +1,52 @@
 $colorGrey: rgb(224, 224, 224);
 $colorBlue: rgb(77, 110, 139);
+$colorLightGrey: rgb(237, 239, 241);
 
 .logo {
+  border-bottom: 5px;
+}
+
+.logo img {
   width: 200px;
 }
 
-#left{
+#left {
   display: flex;
   flex-flow: column;
   background-color: $colorGrey;
 }
 
-#right{
+#message {
   display: flex;
   justify-content: flex-end;
   background-color: $colorGrey;
 }
 
-.message{
-  width: 50px;
+#message img {
+  width: 20px;
 }
 
-.left-image{
+.left-image {
   width: 30px;
-} 
+}
 
-.gear{
+.gear {
   background-color: $colorBlue;
   margin: 10px 10px 10px 10px;
   padding: 10px 10px 10px 10px;
   width: 30px;
 }
 
-.boxes{
+.boxes {
   display: flex;
   justify-content: flex-start;
   margin-right: 800px;
 }
 
-.box h4{
+.box h4 {
   background-color: $colorBlue;
 }
 
-.box p{
+.box p {
   background-color: $colorGrey;
 }

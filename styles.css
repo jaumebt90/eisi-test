@@ -1,4 +1,8 @@
 .logo {
+  border-bottom: 5px;
+}
+
+.logo img {
   width: 200px;
 }
 
@@ -8,14 +12,14 @@
   background-color: rgb(224, 224, 224);
 }
 
-#right {
+#message {
   display: flex;
   justify-content: flex-end;
   background-color: rgb(224, 224, 224);
 }
 
-.message {
-  width: 50px;
+#message img {
+  width: 20px;
 }
 
 .left-image {
