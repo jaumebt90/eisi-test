@@ -1,0 +1,26 @@
+$colorGrey: rgb(224, 224, 224);
+$colorBlue: rgb(77, 110, 139);
+
+.logo {
+  width: 200px;
+}
+
+#left{
+  display: flex;
+  flex-flow: column;
+  background-color: $colorGrey;
+}
+
+#right{
+  display: flex;
+  justify-content: flex-end;
+  background-color: $colorGrey;
+}
+
+.message{
+  width: 50px;
+}
+
+.left-image{
+  width: 30px;
+}
