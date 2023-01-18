@@ -25,4 +25,8 @@
 .gear {
   background-color: rgb(77, 110, 139);
   width: 30px;
+}
+
+.boxes {
+  display: flex;
 }/*# sourceMappingURL=styles.css.map */
