@@ -1,9 +1,10 @@
 .logo {
-  border-bottom: 5px;
+  border-bottom: 20px black;
 }
 
 .logo img {
   width: 200px;
+  margin-bottom: 10px;
 }
 
 .left img {
@@ -44,16 +45,19 @@
 
 .box {
   display: flexbox;
-  margin: 5px 5px 5px 5px;
+  margin-right: 15px;
 }
 
 .box h4 {
   background-color: rgb(77, 110, 139);
   color: white;
   justify-content: center;
+  padding: 10px 10px 10px 10px;
 }
 
 .box p {
   background-color: rgb(237, 239, 241);
   color: grey;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
 }/*# sourceMappingURL=styles.css.map */
