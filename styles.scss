@@ -12,6 +12,13 @@ $colorLightGrey: rgb(237, 239, 241);
   margin-bottom: 10px;
 }
 
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: $colorGrey;
+}
+
 .left img {
   display: flex;
   flex-flow: column;
@@ -19,6 +26,10 @@ $colorLightGrey: rgb(237, 239, 241);
   width: 30px;
 }
 
+#message{
+  display: flex;
+  justify-content: flex-end;
+}
 
 #message img{
   width: 30px;

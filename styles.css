@@ -8,11 +8,23 @@
   margin-bottom: 10px;
 }
 
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgb(224, 224, 224);
+}
+
 .left img {
   display: flex;
   flex-flow: column;
   background-color: rgb(224, 224, 224);
   width: 30px;
+}
+
+#message {
+  display: flex;
+  justify-content: flex-end;
 }
 
 #message img {
