@@ -12,17 +12,10 @@ $colorLightGrey: rgb(237, 239, 241);
   margin-bottom: 10px;
 }
 
-.franja{
-  height: 100%;
-  background-color: $colorGrey;
-}
-
 .left{
   float: left;
   width: 5%;
   height: 100%;
-  flex-direction:column;
-  justify-items: center;
   background-color: $colorGrey;
 }
 
@@ -33,14 +26,23 @@ $colorLightGrey: rgb(237, 239, 241);
 }
 
 .bell{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border:1px solid black;
   padding: 1px 1px 1px 1px;
 }
 .slow-motion{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border:1px solid black;
   padding: 1px 1px 1px 1px;
 }
 .cog{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border:1px solid black;
   padding: 1px 1px 1px 1px;
 }
@@ -77,14 +79,18 @@ $colorLightGrey: rgb(237, 239, 241);
   color:$colorBlue
 }
 
+.central{
+  background-color: $colorLightGrey;
+}
 
 .boxes {
   display: grid;
   grid-template-columns: repeat(4,1fr);
   margin-right: 600px;
   grid-gap: 10px;
-  margin-left: 50px;
+  margin-left: 110px;
   width: 50%;
+  background-color: white;
 }
 
 .box{
