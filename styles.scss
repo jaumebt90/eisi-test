@@ -12,6 +12,7 @@ $colorLightGrey: rgb(237, 239, 241);
   margin-bottom: 10px;
 }
 
+
 .left{
   float: left;
   width: 5%;
@@ -43,7 +44,9 @@ $colorLightGrey: rgb(237, 239, 241);
 
 #message{
   display: flex;
-  justify-content: flex-end;
+  float: right;
+  background-color: $colorGrey;
+  height: 100%;
 }
 
 #message img{
@@ -73,10 +76,11 @@ $colorLightGrey: rgb(237, 239, 241);
 
 
 .boxes {
-  display: flex;
-  justify-content: flex-start;
-  margin-right: 800px;
-  
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-right: 600px;
+  grid-gap: 10px;
+  margin-left: 50px;
 }
 
 .box{

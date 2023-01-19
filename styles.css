@@ -40,7 +40,9 @@
 
 #message {
   display: flex;
-  justify-content: flex-end;
+  float: right;
+  background-color: rgb(224, 224, 224);
+  height: 100%;
 }
 
 #message img {
@@ -69,9 +71,11 @@
 }
 
 .boxes {
-  display: flex;
-  justify-content: flex-start;
-  margin-right: 800px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-right: 600px;
+  grid-gap: 10px;
+  margin-left: 50px;
 }
 
 .box {
