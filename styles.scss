@@ -13,10 +13,12 @@ $colorLightGrey: rgb(237, 239, 241);
 }
 
 .left{
-  display: flex;
+  float: left;
+  width: 5%;
+  height: 100%;
   flex-direction:column;
   justify-content:left;
-  background-color: red;
+  background-color: $colorGrey;
 }
 
 .left img {
@@ -28,7 +30,14 @@ $colorLightGrey: rgb(237, 239, 241);
 
 .bell{
   border:1px solid black;
-  margin-right: 1830px;
+  padding: 1px 1px 1px 1px;
+}
+.slow-motion{
+  border:1px solid black;
+  padding: 1px 1px 1px 1px;
+}
+.cog{
+  border:1px solid black;
   padding: 1px 1px 1px 1px;
 }
 
@@ -48,7 +57,7 @@ $colorLightGrey: rgb(237, 239, 241);
   flex-direction: row;
   border-bottom: 30px solid $colorBlue;
   margin-left: 80px;
-  margin-top: 5px;
+  //margin-top: 5px;
 }
 .gear {
   background-color: $colorBlue;

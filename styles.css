@@ -9,10 +9,12 @@
 }
 
 .left {
-  display: flex;
+  float: left;
+  width: 5%;
+  height: 100%;
   flex-direction: column;
   justify-content: left;
-  background-color: red;
+  background-color: rgb(224, 224, 224);
 }
 
 .left img {
@@ -23,7 +25,16 @@
 
 .bell {
   border: 1px solid black;
-  margin-right: 1830px;
+  padding: 1px 1px 1px 1px;
+}
+
+.slow-motion {
+  border: 1px solid black;
+  padding: 1px 1px 1px 1px;
+}
+
+.cog {
+  border: 1px solid black;
   padding: 1px 1px 1px 1px;
 }
 
@@ -43,7 +54,6 @@
   flex-direction: row;
   border-bottom: 30px solid rgb(77, 110, 139);
   margin-left: 80px;
-  margin-top: 5px;
 }
 
 .gear {
