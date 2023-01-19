@@ -55,6 +55,8 @@
   width: 30px;
   display: flex;
   justify-content: end;
+  border: 1px rgb(237, 239, 241) solid;
+  padding: 5px 5px 5px 5px;
 }
 
 .pestana {
