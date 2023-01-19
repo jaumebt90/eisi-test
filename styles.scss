@@ -14,16 +14,22 @@ $colorLightGrey: rgb(237, 239, 241);
 
 .left{
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   justify-content: flex-start;
-  background-color: $colorGrey;
+  background-color: red;
 }
 
 .left img {
   display: flex;
   flex-flow: column;
-  background-color: $colorGrey;
+  //background-color: $colorGrey;
   width: 30px;
+}
+
+.bell{
+  border:1px solid black;
+  margin-right: 1830px;
+  padding: 1px 1px 1px 1px;
 }
 
 #message{
@@ -65,7 +71,7 @@ $colorLightGrey: rgb(237, 239, 241);
 }
 
 .box{
-  display:flexbox;
+  display:table-cell;
   margin-right: 15px;
   
 }
