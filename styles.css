@@ -24,9 +24,6 @@ html, body {
 }
 
 .left img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 5px;
   width: 30px;
 }
@@ -35,6 +32,7 @@ html, body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
   border: 1px solid black;
   padding: 1px 1px 1px 1px;
 }
@@ -43,6 +41,7 @@ html, body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
   border: 1px solid black;
   padding: 1px 1px 1px 1px;
 }
@@ -51,6 +50,7 @@ html, body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
   border: 1px solid black;
   padding: 1px 1px 1px 1px;
   background-color: white;
