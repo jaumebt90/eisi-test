@@ -61,21 +61,22 @@ html, body{
   color:$colorBlue
 }
 
-#message {
+.message {
   display: flex;
   float: right;
+  //height: 100%;
   background-color: $colorGrey;
 }
 
-#message img {
+.message img {
   width: 30px;
   display: flex;
   justify-content: end;
   border: 1px $colorLightGrey solid;
-  padding: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px; 
 }
 
-#message p {
+.message p {
   background-color: $colorRed;
   color: white;
   border-radius: 60%;

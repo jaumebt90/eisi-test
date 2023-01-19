@@ -57,13 +57,13 @@ html, body {
   color: rgb(77, 110, 139);
 }
 
-#message {
+.message {
   display: flex;
   float: right;
   background-color: rgb(224, 224, 224);
 }
 
-#message img {
+.message img {
   width: 30px;
   display: flex;
   justify-content: end;
@@ -71,7 +71,7 @@ html, body {
   padding: 5px 5px 5px 5px;
 }
 
-#message p {
+.message p {
   background-color: rgb(239, 138, 134);
   color: white;
   border-radius: 60%;
