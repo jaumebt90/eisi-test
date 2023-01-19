@@ -8,18 +8,22 @@
   margin-bottom: 10px;
 }
 
+.franja {
+  height: 100%;
+  background-color: rgb(224, 224, 224);
+}
+
 .left {
   float: left;
   width: 5%;
   height: 100%;
   flex-direction: column;
-  justify-content: left;
+  justify-items: center;
   background-color: rgb(224, 224, 224);
 }
 
 .left img {
-  display: flex;
-  flex-flow: column;
+  margin-top: 5px;
   width: 30px;
 }
 
@@ -76,6 +80,7 @@
   margin-right: 600px;
   grid-gap: 10px;
   margin-left: 50px;
+  width: 50%;
 }
 
 .box {
