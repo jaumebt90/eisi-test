@@ -60,13 +60,13 @@ html, body {
 .message {
   display: flex;
   float: right;
+  height: 100%;
   background-color: rgb(224, 224, 224);
 }
 
 .message img {
+  margin-bottom: 920px;
   width: 30px;
-  display: flex;
-  justify-content: end;
   border: 1px rgb(237, 239, 241) solid;
   padding: 5px 5px 5px 5px;
 }
