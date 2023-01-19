@@ -1,6 +1,7 @@
 $colorGrey: rgb(224, 224, 224);
 $colorBlue: rgb(77, 110, 139);
 $colorLightGrey: rgb(237, 239, 241);
+$colorRed: rgb(239, 138, 134);
 
 .logo {
   border-bottom: 2px $colorLightGrey solid;
@@ -12,7 +13,7 @@ $colorLightGrey: rgb(237, 239, 241);
   margin-bottom: 10px;
 }
 
-.left{
+.left {
   float: left;
   width: 5%;
   height: 100%;
@@ -25,36 +26,36 @@ $colorLightGrey: rgb(237, 239, 241);
   width: 30px;
 }
 
-.bell{
+.bell {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border:1px solid black;
+  border: 1px solid black;
   padding: 1px 1px 1px 1px;
 }
-.slow-motion{
+.slow-motion {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border:1px solid black;
+  border: 1px solid black;
   padding: 1px 1px 1px 1px;
 }
-.cog{
+.cog {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border:1px solid black;
+  border: 1px solid black;
   padding: 1px 1px 1px 1px;
 }
 
-#message{
+#message {
   display: flex;
   float: right;
   background-color: $colorGrey;
   height: 100%;
 }
 
-#message img{
+#message img {
   width: 30px;
   display: flex;
   justify-content: end;
@@ -62,7 +63,16 @@ $colorLightGrey: rgb(237, 239, 241);
   padding: 5px 5px 5px 5px;
 }
 
-.pestana{
+#message p {
+  background-color: $colorRed;
+  color: white;
+  border-radius: 60%;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 1px;
+}
+
+.pestana {
   display: flex;
   flex-direction: row;
   border-bottom: 30px solid $colorBlue;
@@ -77,17 +87,17 @@ $colorLightGrey: rgb(237, 239, 241);
   border-radius: 5px;
 }
 
-.pestana h4{
-  color:$colorBlue
+.pestana h4 {
+  color: $colorBlue;
 }
 
-.central{
+.central {
   background-color: $colorLightGrey;
 }
 
 .boxes {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   margin-right: 600px;
   grid-gap: 10px;
   margin-left: 110px;
@@ -95,10 +105,9 @@ $colorLightGrey: rgb(237, 239, 241);
   background-color: white;
 }
 
-.box{
-  display:table-cell;
+.box {
+  display: table-cell;
   margin-right: 15px;
-  
 }
 
 .box h4 {
